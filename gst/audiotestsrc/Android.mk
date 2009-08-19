@@ -22,7 +22,7 @@ LOCAL_C_INCLUDES := 			\
 	$(GST_PLUGINS_BASE_TOP)		\
 	external/liboil			\
 	external/gstreamer		\
-	external/gstreamer/android 	\
+	external/gstreamer/android/arch/$(TARGET_ARCH) 	\
 	external/gstreamer/libs		\
 	external/gstreamer/gst		\
 	external/gstreamer/gst/android	\

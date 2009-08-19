@@ -30,7 +30,7 @@ LOCAL_C_INCLUDES := 			\
 	external/liboil			\
 	external/liboil/liboil/android/	\
 	external/gstreamer		\
-	external/gstreamer/android 	\
+	external/gstreamer/android/arch/$(TARGET_ARCH)  	\
 	external/gstreamer/libs		\
 	external/gstreamer/gst		\
 	external/gstreamer/gst/android	\

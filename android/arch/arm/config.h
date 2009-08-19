@@ -74,7 +74,7 @@
 /* #undef HAVE_CPU_ALPHA */
 
 /* Define if the host CPU is an ARM */
-/* #undef HAVE_CPU_ARM */
+#define HAVE_CPU_ARM 1
 
 /* Define if the host CPU is a CRIS */
 /* #undef HAVE_CPU_CRIS */
@@ -86,7 +86,7 @@
 /* #undef HAVE_CPU_HPPA */
 
 /* Define if the host CPU is an x86 */
-#define HAVE_CPU_I386 1
+/* #undef HAVE_CPU_I386 */
 
 /* Define if the host CPU is a IA64 */
 /* #undef HAVE_CPU_IA64 */

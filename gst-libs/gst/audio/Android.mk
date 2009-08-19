@@ -31,11 +31,11 @@ LOCAL_C_INCLUDES := 			\
 	$(LOCAL_PATH)			\
 	$(GST_PLUGINS_BASE_TOP)		\
 	$(GST_PLUGINS_BASE_TOP)/gst-libs\
-	$(GST_PLUGINS_BASE_TOP)/android	\
+	$(GST_PLUGINS_BASE_TOP)/android/arch/$(TARGET_ARCH)	\
 	$(LOCAL_PATH)/android		\
 	$(LOCAL_PATH)/android/gst/audio	\
 	external/gstreamer		\
-	external/gstreamer/android 	\
+	external/gstreamer/android/arch/$(TARGET_ARCH) 	\
 	external/gstreamer/gst/android 	\
 	external/gstreamer/libs		\
 	external/gstreamer/gst		\

@@ -24,10 +24,10 @@ LOCAL_MODULE:= libgstffmpegcolorspace
 LOCAL_C_INCLUDES := 			\
 	$(LOCAL_PATH)			\
 	$(GST_PLUGINS_BASE_TOP)		\
-	$(GST_PLUGINS_BASE_TOP)/android	\
+	$(GST_PLUGINS_BASE_TOP)/android/arch/$(TARGET_ARCH) 	\
 	external/liboil			\
 	external/gstreamer		\
-	external/gstreamer/android 	\
+	external/gstreamer/android/arch/$(TARGET_ARCH)  	\
 	external/gstreamer/libs		\
 	external/gstreamer/gst		\
 	external/gstreamer/gst/android	\

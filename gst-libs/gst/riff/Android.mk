@@ -22,11 +22,11 @@ LOCAL_MODULE:= libgstriff-0.10
 LOCAL_C_INCLUDES := 				\
 	$(LOCAL_PATH)				\
 	$(GST_PLUGINS_BASE_TOP)			\
-	$(GST_PLUGINS_BASE_TOP)/android		\
+	$(GST_PLUGINS_BASE_TOP)/android/arch/$(TARGET_ARCH)		\
 	$(GST_PLUGINS_BASE_TOP)/gst-libs	\
 	$(GST_PLUGINS_BASE_TOP)/gst-libs/gst/audio/android	\
 	external/gstreamer		 	\
-	external/gstreamer/android 		\
+	external/gstreamer/android/arch/$(TARGET_ARCH) 		\
 	external/gstreamer/libs			\
 	external/gstreamer/gst			\
 	external/gstreamer/gst/android		\
