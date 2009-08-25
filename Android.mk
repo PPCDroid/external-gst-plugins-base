@@ -1,3 +1,5 @@
+ifeq ($(strip $(BUILD_WITH_GST)),true)
+
 LOCAL_PATH := $(call my-dir)
 
 GST_PLUGINS_BASE_TOP := $(LOCAL_PATH)
@@ -34,3 +36,5 @@ include $(GST_PLUGINS_BASE_TOP)/gst/app/Android.mk
 
 # plugins WITH external dependencies
 include $(GST_PLUGINS_BASE_TOP)/ext/ogg/Android.mk
+
+endif
